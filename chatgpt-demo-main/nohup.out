@@ -1,0 +1,424 @@
+npm WARN config init.module Use `--init-module` instead.
+
+> chatgpt-api-demo@0.0.1 dev
+> astro dev
+
+  🚀  astro  v2.1.8 started in 521ms
+  
+  ┃ Local    http://localhost:3000/
+  ┃ Network  use --host to expose
+  
+11:54:16 AM [astro] Restarting...
+
+npm WARN config init.module Use `--init-module` instead.
+
+> chatgpt-api-demo@0.0.1 dev
+> astro dev
+
+  🚀  astro  v2.1.8 started in 624ms
+  
+  ┃ Local    http://localhost:3000/
+  ┃ Network  use --host to expose
+  
+ error   Cannot read properties of undefined (reading 'error')
+  File:
+    /home/chatgpt-demo-main/src/pages/api/generate.ts:52:39
+  Code:
+    > 52 |   // @ts-ignore
+         |                                       ^
+      53 |   const response = await fetch(`${baseUrl}/v1/chat/completions`, initOptions) as Response
+      54 |   if(response.statusText!='OK'){
+      55 |     return response.json().catch(err => {
+  Stacktrace:
+TypeError: Cannot read properties of undefined (reading 'error')
+    at eval (/home/chatgpt-demo-main/src/pages/api/generate.ts:52:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/index.js:72:20)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/dev/index.js:15:10)
+    at async handleRoute (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/route.js:117:20)
+    at async run (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:46:14)
+    at async runWithErrorHandling (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/controller.js:65:5)
+    at async handleRequest (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:40:3)
+
+12:06:26 PM [astro] update /nohup.out
+ error   Cannot read properties of undefined (reading 'error')
+  File:
+    /home/chatgpt-demo-main/src/pages/api/generate.ts:52:39
+  Code:
+    > 52 |   // @ts-ignore
+         |                                       ^
+      53 |   const response = await fetch(`${baseUrl}/v1/chat/completions`, initOptions) as Response
+      54 |   if(response.statusText!='OK'){
+      55 |     return response.json().catch(err => {
+  Stacktrace:
+TypeError: Cannot read properties of undefined (reading 'error')
+    at eval (/home/chatgpt-demo-main/src/pages/api/generate.ts:52:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/index.js:72:20)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/dev/index.js:15:10)
+    at async handleRoute (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/route.js:117:20)
+    at async run (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:46:14)
+    at async runWithErrorHandling (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/controller.js:65:5)
+    at async handleRequest (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:40:3)
+
+12:06:38 PM [astro] update /nohup.out
+ error   Cannot read properties of undefined (reading 'error')
+  File:
+    /home/chatgpt-demo-main/src/pages/api/generate.ts:52:39
+  Code:
+    > 52 |   // @ts-ignore
+         |                                       ^
+      53 |   const response = await fetch(`${baseUrl}/v1/chat/completions`, initOptions) as Response
+      54 |   if(response.statusText!='OK'){
+      55 |     return response.json().catch(err => {
+  Stacktrace:
+TypeError: Cannot read properties of undefined (reading 'error')
+    at eval (/home/chatgpt-demo-main/src/pages/api/generate.ts:52:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/index.js:72:20)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/dev/index.js:15:10)
+    at async handleRoute (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/route.js:117:20)
+    at async run (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:46:14)
+    at async runWithErrorHandling (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/controller.js:65:5)
+    at async handleRequest (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:40:3)
+
+12:06:51 PM [astro] update /nohup.out
+ error   Cannot read properties of undefined (reading 'error')
+  File:
+    /home/chatgpt-demo-main/src/pages/api/generate.ts:52:39
+  Code:
+    > 52 |   // @ts-ignore
+         |                                       ^
+      53 |   const response = await fetch(`${baseUrl}/v1/chat/completions`, initOptions) as Response
+      54 |   if(response.statusText!='OK'){
+      55 |     return response.json().catch(err => {
+  Stacktrace:
+TypeError: Cannot read properties of undefined (reading 'error')
+    at eval (/home/chatgpt-demo-main/src/pages/api/generate.ts:52:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/index.js:72:20)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/dev/index.js:15:10)
+    at async handleRoute (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/route.js:117:20)
+    at async run (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:46:14)
+    at async runWithErrorHandling (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/controller.js:65:5)
+    at async handleRequest (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:40:3)
+
+12:07:07 PM [astro] update /nohup.out
+ error   Cannot read properties of undefined (reading 'error')
+  File:
+    /home/chatgpt-demo-main/src/pages/api/generate.ts:52:39
+  Code:
+    > 52 |   // @ts-ignore
+         |                                       ^
+      53 |   const response = await fetch(`${baseUrl}/v1/chat/completions`, initOptions) as Response
+      54 |   if(response.statusText!='OK'){
+      55 |     return response.json().catch(err => {
+  Stacktrace:
+TypeError: Cannot read properties of undefined (reading 'error')
+    at eval (/home/chatgpt-demo-main/src/pages/api/generate.ts:52:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/index.js:72:20)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/dev/index.js:15:10)
+    at async handleRoute (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/route.js:117:20)
+    at async run (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:46:14)
+    at async runWithErrorHandling (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/controller.js:65:5)
+    at async handleRequest (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:40:3)
+
+12:07:34 PM [astro] update /nohup.out
+ error   Cannot read properties of undefined (reading 'error')
+  File:
+    /home/chatgpt-demo-main/src/pages/api/generate.ts:52:39
+  Code:
+    > 52 |   // @ts-ignore
+         |                                       ^
+      53 |   const response = await fetch(`${baseUrl}/v1/chat/completions`, initOptions) as Response
+      54 |   if(response.statusText!='OK'){
+      55 |     return response.json().catch(err => {
+  Stacktrace:
+TypeError: Cannot read properties of undefined (reading 'error')
+    at eval (/home/chatgpt-demo-main/src/pages/api/generate.ts:52:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/index.js:72:20)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/dev/index.js:15:10)
+    at async handleRoute (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/route.js:117:20)
+    at async run (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:46:14)
+    at async runWithErrorHandling (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/controller.js:65:5)
+    at async handleRequest (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:40:3)
+
+12:09:04 PM [astro] update /nohup.out
+ error   Cannot read properties of undefined (reading 'error')
+  File:
+    /home/chatgpt-demo-main/src/pages/api/generate.ts:52:39
+  Code:
+    > 52 |   // @ts-ignore
+         |                                       ^
+      53 |   const response = await fetch(`${baseUrl}/v1/chat/completions`, initOptions) as Response
+      54 |   if(response.statusText!='OK'){
+      55 |     return response.json().catch(err => {
+  Stacktrace:
+TypeError: Cannot read properties of undefined (reading 'error')
+    at eval (/home/chatgpt-demo-main/src/pages/api/generate.ts:52:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/index.js:72:20)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/dev/index.js:15:10)
+    at async handleRoute (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/route.js:117:20)
+    at async run (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:46:14)
+    at async runWithErrorHandling (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/controller.js:65:5)
+    at async handleRequest (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:40:3)
+
+12:09:44 PM [astro] update /nohup.out
+ error   Cannot read properties of undefined (reading 'error')
+  File:
+    /home/chatgpt-demo-main/src/pages/api/generate.ts:52:39
+  Code:
+    > 52 |   // @ts-ignore
+         |                                       ^
+      53 |   const response = await fetch(`${baseUrl}/v1/chat/completions`, initOptions) as Response
+      54 |   if(response.statusText!='OK'){
+      55 |     return response.json().catch(err => {
+  Stacktrace:
+TypeError: Cannot read properties of undefined (reading 'error')
+    at eval (/home/chatgpt-demo-main/src/pages/api/generate.ts:52:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/index.js:72:20)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/dev/index.js:15:10)
+    at async handleRoute (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/route.js:117:20)
+    at async run (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:46:14)
+    at async runWithErrorHandling (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/controller.js:65:5)
+    at async handleRequest (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:40:3)
+
+12:09:48 PM [astro] update /nohup.out
+ error   Cannot read properties of undefined (reading 'error')
+  File:
+    /home/chatgpt-demo-main/src/pages/api/generate.ts:52:39
+  Code:
+    > 52 |   // @ts-ignore
+         |                                       ^
+      53 |   const response = await fetch(`${baseUrl}/v1/chat/completions`, initOptions) as Response
+      54 |   if(response.statusText!='OK'){
+      55 |     return response.json().catch(err => {
+  Stacktrace:
+TypeError: Cannot read properties of undefined (reading 'error')
+    at eval (/home/chatgpt-demo-main/src/pages/api/generate.ts:52:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/index.js:72:20)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/dev/index.js:15:10)
+    at async handleRoute (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/route.js:117:20)
+    at async run (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:46:14)
+    at async runWithErrorHandling (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/controller.js:65:5)
+    at async handleRequest (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:40:3)
+
+12:10:09 PM [astro] update /nohup.out
+12:30:36 PM [serve] 404 /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+12:30:36 PM [astro] update /nohup.out
+12:31:37 PM [serve] 404                     /owa/auth/logon.aspx
+12:31:37 PM [astro] update /nohup.out
+12:34:57 PM [serve] 404                           /owa/auth/x.js
+12:34:57 PM [astro] update /nohup.out
+npm WARN config init.module Use `--init-module` instead.
+
+> chatgpt-api-demo@0.0.1 dev
+> astro dev
+
+  🚀  astro  v2.1.8 started in 1083ms
+  
+  ┃ Local    http://localhost:3000/
+  ┃ Network  use --host to expose
+  
+ error   fetch failed
+  File:
+    /home/chatgpt-demo-main/node_modules/undici/index.js:109:13
+  Code:
+    108 |     } catch (err) {
+    > 109 |       Error.captureStackTrace(err, this)
+          |             ^
+      110 |       throw err
+      111 |     }
+      112 |   }
+  Stacktrace:
+TypeError: fetch failed
+    at Proxy.fetch (/home/chatgpt-demo-main/node_modules/undici/index.js:109:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Module.post (/home/chatgpt-demo-main/src/pages/api/balance.ts:22:20)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/index.js:72:20)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/dev/index.js:15:10)
+    at async handleRoute (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/route.js:117:20)
+    at async run (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:46:14)
+    at async runWithErrorHandling (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/controller.js:65:5)
+    at async handleRequest (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:40:3)
+
+  Cause:
+Error: connect ECONNREFUSED 127.0.0.1:7890
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)
+
+12:46:56 PM [astro] update /nohup.out
+ error   fetch failed
+  File:
+    /home/chatgpt-demo-main/node_modules/undici/index.js:109:13
+  Code:
+    108 |     } catch (err) {
+    > 109 |       Error.captureStackTrace(err, this)
+          |             ^
+      110 |       throw err
+      111 |     }
+      112 |   }
+  Stacktrace:
+TypeError: fetch failed
+    at Proxy.fetch (/home/chatgpt-demo-main/node_modules/undici/index.js:109:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Module.post (/home/chatgpt-demo-main/src/pages/api/balance.ts:22:20)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/index.js:72:20)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/dev/index.js:15:10)
+    at async handleRoute (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/route.js:117:20)
+    at async run (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:46:14)
+    at async runWithErrorHandling (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/controller.js:65:5)
+    at async handleRequest (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:40:3)
+
+  Cause:
+Error: connect ECONNREFUSED 127.0.0.1:7890
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)
+
+12:47:22 PM [astro] update /nohup.out
+ error   fetch failed
+  File:
+    /home/chatgpt-demo-main/node_modules/undici/index.js:109:13
+  Code:
+    108 |     } catch (err) {
+    > 109 |       Error.captureStackTrace(err, this)
+          |             ^
+      110 |       throw err
+      111 |     }
+      112 |   }
+  Stacktrace:
+TypeError: fetch failed
+    at Proxy.fetch (/home/chatgpt-demo-main/node_modules/undici/index.js:109:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Module.post (/home/chatgpt-demo-main/src/pages/api/generate.ts:48:20)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/index.js:72:20)
+    at async call (file:///home/chatgpt-demo-main/node_modules/astro/dist/core/endpoint/dev/index.js:15:10)
+    at async handleRoute (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/route.js:117:20)
+    at async run (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:46:14)
+    at async runWithErrorHandling (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/controller.js:65:5)
+    at async handleRequest (file:///home/chatgpt-demo-main/node_modules/astro/dist/vite-plugin-astro-server/request.js:40:3)
+
+  Cause:
+Error: connect ECONNREFUSED 127.0.0.1:7890
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)
+
+12:48:18 PM [astro] update /nohup.out
+05:00:17 PM [serve] 404                          /geoserver/web/
+05:00:17 PM [astro] update /nohup.out
+05:00:57 PM [serve] 404                             /.git/config
+05:00:57 PM [astro] update /nohup.out
+06:22:35 PM [serve] 404                                 /version
+06:22:35 PM [astro] update /nohup.out
+08:55:44 PM [serve] 404                         /actuator/health
+08:55:44 PM [astro] update /nohup.out
+The request url "/home/chatgpt-demo-main/.env" is outside of Vite serving allow list.
+
+- /home/chatgpt-demo-main
+
+Refer to docs https://vitejs.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+[2K[1G[1A10:01:50 PM [astro] update /nohup.out (x2)
+12:26:13 AM [serve] 404                                    /ab2g
+12:26:13 AM [astro] update /nohup.out
+12:26:14 AM [serve] 404                                    /ab2h
+12:26:14 AM [astro] update /nohup.out
+12:26:27 AM [serve] 404                                      /t4
+12:26:27 AM [astro] update /nohup.out
+04:02:57 AM [serve] 404                       /vodarticle/d03CCS
+04:02:57 AM [astro] update /nohup.out
+06:54:30 AM [serve] 404 /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+06:54:30 AM [astro] update /nohup.out
+08:22:11 AM [serve] 404 /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+08:22:11 AM [astro] update /nohup.out
+The request url "/home/chatgpt-demo-main/.env" is outside of Vite serving allow list.
+[2K[1G[1A09:06:03 AM [astro] update /nohup.out (x2)
+10:23:58 AM [serve] 404                               /index.php
+10:23:58 AM [astro] update /nohup.out
+11:58:10 AM [serve] 404                          /geoserver/web/
+11:58:10 AM [astro] update /nohup.out
+11:58:50 AM [serve] 404                             /.git/config
+11:58:50 AM [astro] update /nohup.out
+12:05:02 PM [serve] 404             /mifs/.;/services/LogService
+12:05:02 PM [astro] update /nohup.out
+01:20:35 PM [serve] 404                                /console/
+01:20:35 PM [astro] update /nohup.out
+03:27:05 PM [serve] 404         /epa/scripts/win/nsepa_setup.exe
+03:27:05 PM [astro] update /nohup.out
+04:25:04 PM [serve] 404           /Autodiscover/Autodiscover.xml
+04:25:04 PM [astro] update /nohup.out
+04:56:37 PM [serve] 404              /_ignition/execute-solution
+04:56:37 PM [astro] update /nohup.out
+05:02:20 PM [serve] 404                            /wp-login.php
+05:02:20 PM [astro] update /nohup.out
+05:12:45 PM [serve] 404                              /robots.txt
+05:12:45 PM [astro] update /nohup.out
+05:21:22 PM [serve] 404                             /.git/config
+05:21:22 PM [astro] update /nohup.out
+07:42:50 PM [serve] 404                                    /aaa9
+07:42:50 PM [astro] update /nohup.out
+The request url "/home/chatgpt-demo-main/.env" is outside of Vite serving allow list.
+[2K[1G[1A09:38:59 PM [astro] update /nohup.out (x2)
+11:43:06 PM [serve] 404                     /owa/auth/logon.aspx
+11:43:06 PM [astro] update /nohup.out
+11:49:18 PM [serve] 404                                 /explore
+11:49:18 PM [astro] update /nohup.out
+01:27:36 AM [serve] 404                 /explicit_not_exist_path
+01:27:36 AM [astro] update /nohup.out
+01:27:36 AM [serve] 404                                  /admin/
+01:27:36 AM [astro] update /nohup.out
+01:27:36 AM [serve] 404                              /robots.txt
+01:27:36 AM [astro] update /nohup.out
+01:27:37 AM [serve] 404              /login/img/product_logo.png
+01:27:37 AM [astro] update /nohup.out
+01:27:37 AM [serve] 404                        /images/ofbiz.ico
+01:27:37 AM [astro] update /nohup.out
+01:27:37 AM [serve] 404                             /phpMyAdmin/
+01:27:37 AM [astro] update /nohup.out
+01:27:37 AM [serve] 404                             /phpmyadmin/
+01:27:37 AM [astro] update /nohup.out
+01:27:37 AM [serve] 404                                    /wcm/
+01:32:22 AM [serve] 404                              /robots.txt
+01:32:22 AM [astro] update /nohup.out
+01:48:41 AM [serve] 404                                     /404
+01:48:41 AM [astro] update /nohup.out
+04:35:29 AM [serve] 404                                    /ab2g
+04:35:29 AM [astro] update /nohup.out
+04:35:31 AM [serve] 404                                    /ab2h
+04:35:31 AM [astro] update /nohup.out
+04:35:42 AM [serve] 404                                      /t4
+04:35:42 AM [astro] update /nohup.out
+04:51:44 AM [serve] 404          /autodiscover/autodiscover.json
+04:51:44 AM [astro] update /nohup.out
+05:30:57 AM [serve] 404                         /remote/fgt_lang
+05:30:57 AM [astro] update /nohup.out
+08:24:22 AM [serve] 404 /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+08:24:22 AM [astro] update /nohup.out
+08:26:35 AM [serve] 404                     /owa/auth/logon.aspx
+08:26:35 AM [astro] update /nohup.out
+08:30:52 AM [serve] 404                           /owa/auth/x.js
+08:30:52 AM [astro] update /nohup.out
+10:07:26 AM [serve] 404                      /cgi-bin/config.exp
+10:07:26 AM [astro] update /nohup.out
+10:11:54 AM [serve] 404                 /actuator/gateway/routes
+10:11:54 AM [astro] update /nohup.out
+10:56:25 AM [serve] 404                               /geoserver
+10:56:25 AM [astro] update /nohup.out
+12:02:01 PM [serve] 404                          /geoserver/web/
+12:02:01 PM [astro] update /nohup.out
+12:02:45 PM [serve] 404                             /.git/config
+12:02:45 PM [astro] update /nohup.out
+The request url "/home/chatgpt-demo-main/.env" is outside of Vite serving allow list.
+[2K[1G[1A12:17:50 PM [astro] update /nohup.out (x2)
+01:46:37 PM [serve] 404                                 /explore
+01:46:37 PM [astro] update /nohup.out
+npm WARN config init.module Use `--init-module` instead.
+Unknown command: "dev"
+
+Did you mean this?
+    npm run dev # run the "dev" package script
+
+To see a list of supported npm commands, run:
+  npm help
